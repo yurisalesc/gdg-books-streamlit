@@ -5,7 +5,7 @@ from generate_books_table import generate_books_table
 
 df = generate_books_table()
 
-st.set_page_config(page_title="Books Library", layout="wide")
+st.set_page_config(page_title="Books Library", layout="centered", page_icon="📚")
 st.sidebar.title("Menu")
 
 menu_options = st.sidebar.selectbox(
